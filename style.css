@@ -17,6 +17,11 @@ html {
                                1 rem (realtive unit) now will be equivalent to 10px} */
 }
 
+body {
+    font-size: 1.5rem;
+}
+
+/*
 header{ 
     margin: 0 4rem; 
     letter-spacing: 0.8rem; 
@@ -29,6 +34,7 @@ header{
     text-transform: uppercase; 
     font-size: 1.1rem;
 }
+*/
 
 
 .ChineseNewYear { 
@@ -37,6 +43,19 @@ header{
     justify-content: center;
     align-items: center;
     margin: 7rem 4rem;
+}
+
+.ChineseNewYear header {
+    margin: 0 4rem; 
+    letter-spacing: 0.8rem; 
+    text-align: center; 
+    border-bottom: 1px solid #DFE8CC; 
+    border-right: 1px solid #DFE8CC;
+    border-left: 1px solid #DFE8CC; 
+    padding: 0.5rem; 
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4); 
+    text-transform: uppercase; 
+    font-size: 1.1rem;
 }
 
 .ChineseNewYear imgs { 
@@ -60,6 +79,92 @@ header{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
+.VeniceCarnival { 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7rem 4rem;
+}
+
+.VeniceCarnival header {
+    margin: 0 4rem; 
+    letter-spacing: 0.8rem; 
+    text-align: center; 
+    border-bottom: 1px solid #DFE8CC; 
+    border-right: 1px solid #DFE8CC;
+    border-left: 1px solid #DFE8CC; 
+    padding: 0.5rem; 
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4); 
+    text-transform: uppercase; 
+    font-size: 1.1rem;
+}
+
+.VeniceCarnival imgs { 
+    width: 100%;
+    height: auto;
+    border-radius: 30px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.VeniceCarnival {
+    text-decoration: none;
+    color: #000;
+}
+
+.VeniceCarnival Text { 
+    color: #2C3639;
+    text-align: center; 
+    padding: 2rem;
+    border-radius: 30px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.Diwali { 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7rem 4rem;
+}
+
+.Diwali header {
+    margin: 0 4rem; 
+    letter-spacing: 0.8rem; 
+    text-align: center; 
+    border-bottom: 1px solid #DFE8CC; 
+    border-right: 1px solid #DFE8CC;
+    border-left: 1px solid #DFE8CC; 
+    padding: 0.5rem; 
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4); 
+    text-transform: uppercase; 
+    font-size: 1.1rem;
+}
+
+.Diwali imgs { 
+    width: 100%;
+    height: auto;
+    border-radius: 30px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Diwali {
+    text-decoration: none;
+    color: #000;
+}
+
+.Diwali Text { 
+    color: #2C3639;
+    text-align: center; 
+    padding: 2rem;
+    border-radius: 30px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 
 @media (min-width: 768px) { 
