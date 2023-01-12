@@ -1,0 +1,260 @@
+/*
+Color Palette:
+background color: #
+font color: #     
+secondary color: #
+tertiary color: #
+
+
+/*CSS syntax notes: 
+    selector {property: value;}
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,400&display=swap');
+
+html {
+    font-size: 62.5%;        /*Default font size is 16px - 62.5% of 16 is 10px - 
+                               1 rem (realtive unit) now will be equivalent to 10px} */
+}
+
+body {
+    font-size: 1.5rem;
+    background-color: #E55753 ;
+}
+
+
+
+header { 
+    margin: 0 4rem; 
+    letter-spacing: 0.8rem; 
+    text-align: center; 
+    border-bottom: 1px solid #DFE8CC; 
+    border-right: 1px solid #DFE8CC;
+    border-left: 1px solid #DFE8CC; 
+    padding: 0.5rem; 
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4); 
+    text-transform: uppercase; 
+    font-size: 1.1rem;
+}
+
+p, cite, h2 { 
+    border-bottom: 1px solid #DFE8CC; 
+    border-right: 1px solid #DFE8CC;
+    border-left: 1px solid #DFE8CC; 
+    padding: 0.5rem; 
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+    background-color: #fff;
+} 
+
+.ChineseNewYear { 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7rem 4rem;
+    background-image: url("Assets/CNY Background .jpg");
+    background-color: #cccccc;
+}
+
+.ChineseNewYear header {
+    margin: 0 4rem; 
+    letter-spacing: 0.8rem; 
+    text-align: center; 
+    border-bottom: 1px solid #DFE8CC; 
+    border-right: 1px solid #DFE8CC;
+    border-left: 1px solid #DFE8CC; 
+    padding: 0.5rem; 
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4); 
+    text-transform: uppercase; 
+    font-size: 1.1rem;
+}
+
+.ChineseNewYear imgs { 
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ChineseNewYear {
+    text-decoration: none;
+    color: #000000;
+}
+
+.ChineseNewYear Text { 
+    color: #000000;
+    text-align: center; 
+    padding: 2rem;
+    border-radius: 30px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ChineseNewYear { 
+    background-color: #FFFBEB;
+    margin: 1.2rem;
+    padding: 1.5rem;
+    line-height: 2rem;
+} 
+
+.ChineseNewYear p {
+    text-indent: 1.2rem; 
+}
+
+.VeniceCarnival { 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7rem 4rem;
+    background-image: url("Assets/carnaval-bakground.jpg");
+    background-color: #cccccc;
+}
+
+.VeniceCarnival header {
+    margin: 0 4rem; 
+    letter-spacing: 0.8rem; 
+    text-align: center; 
+    border-bottom: 1px solid #DFE8CC; 
+    border-right: 1px solid #DFE8CC;
+    border-left: 1px solid #DFE8CC; 
+    padding: 0.5rem; 
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4); 
+    text-transform: uppercase; 
+    font-size: 1.1rem;
+}
+
+.VeniceCarnival imgs { 
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.VeniceCarnival {
+    text-decoration: none;
+    color: #000000;
+}
+
+.VeniceCarnival Text { 
+    color: #000000;
+    text-align: center; 
+    padding: 2rem;
+    border-radius: 30px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.VeniceCarnival { 
+    background-color: #FFFBEB;
+    margin: 1.2rem;
+    padding: 1.5rem;
+    line-height: 2rem;
+} 
+
+.VeniceCarnival p {
+    text-indent: 1.2rem; 
+}
+
+.Diwali { 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7rem 4rem;
+    background-image: url("Assets/D background .jpg");
+    background-color: #cccccc;
+}
+
+.Diwali header {
+    margin: 0 4rem; 
+    letter-spacing: 0.8rem; 
+    text-align: center; 
+    border-bottom: 1px solid #DFE8CC; 
+    border-right: 1px solid #DFE8CC;
+    border-left: 1px solid #DFE8CC; 
+    padding: 0.5rem; 
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4); 
+    text-transform: uppercase; 
+    font-size: 1.1rem;
+}
+
+.Diwali imgs { 
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Diwali {
+    text-decoration: none;
+    color: #000;
+}
+
+.Diwali Text { 
+    color: #000;
+    text-align: center; 
+    padding: 2rem;
+    border-radius: 30px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Diwali { 
+    background-color: #FFFBEB;
+    margin: 1.2rem;
+    padding: 1.5rem;
+    line-height: 2rem;
+} 
+
+.Diwali p {
+    text-indent: 1.2rem; 
+}
+
+
+
+
+@media (min-width: 768px) { 
+      header {
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+    body { 
+        font-size: 2rem;   
+    }
+    
+    h2 { 
+        font-size: 3rem;  
+        justify-content: center;
+        display: flex;
+        position: absolute; 
+        margin-top: -550px; 
+    }
+    
+    .ChineseNewYear { 
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .VeniceCarnival { 
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    } 
+    
+    .Diwali { 
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    } 
+    
+    .imgs {
+        max-width: 28%;
+    }
+}
